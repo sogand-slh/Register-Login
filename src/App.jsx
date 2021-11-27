@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
-import Main from "./Main";
 import SignUp from "./components/SignUp";
 import { Route, Switch, Redirect } from "react-router-dom";
 import Login from "./components/Login";
@@ -9,7 +8,9 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Main />
+        <Route path="/login" component={Login} />
+        <Route path="/signup" component={SignUp} />
+        <Redirect from="/" to="/signup" />
       </Switch>
     </div>
   );

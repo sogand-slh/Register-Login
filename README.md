@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Design preview for the Register-Login](https://github.com/sogand-slh/Register-Login/blob/master/src/assets/image/Register-login.png).
 
 ## Available Scripts
 
